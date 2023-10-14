@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {text-align: center;
+    background-color: #181418;
+    min-width: 1320px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #cacaca;
+    font-family: 'Noto Sans KR', sans-serif;
+    ;
+}
+
+/*top 버튼*/
+.page-top {
+	position: fixed;
+	bottom: 100px;
+	right: calc(28% - 300px);
+	width: 60px;
+	height: 60px;
+	border: 2.5px solid #eee;
+	border-radius: 50%;
+	background: #4a304f url(../img/top.png) no-repeat;
+    background-position: center;
+	text-indent: -999em; /*top이라는 글씨가 안 보이게 됨*/
+}
+/*home 버튼*/
+.page-back {
+	position: fixed;
+	bottom: 30px;
+	right: calc(28% - 300px);
+	width: 60px;
+	height: 60px;
+	border: 0.5px solid #eee;
+	border-radius: 50%;
+	background: #ffff url(../img/home.png) no-repeat;
+    background-position: center;
+	text-indent: -999em; /*back이라는 글씨가 안 보이게 됨*/
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+    .nicescroll-rails.nicescroll-rails-hr, #ascrail2000-hr {max-width: 100%;}
+    }
+    
